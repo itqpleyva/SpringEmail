@@ -1,0 +1,4 @@
+Main\Model\Email.class
+Main\MainController\EmailController.class
+Main\Main.class
+Main\Services\EmailService.class

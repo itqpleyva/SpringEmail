@@ -23,7 +23,6 @@ public class EmailController {
 	 @PostMapping("/send")
 	 public String bookSubmit(@ModelAttribute Email email, BindingResult bindingResult) {
 		 
-		// 	email.setFrom("itqpleyva@gmail.com");
 
 			emailService.sendEmail( email.getTo(), email.getSubject(), email.getBodytext());
 
